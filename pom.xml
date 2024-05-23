@@ -126,12 +126,12 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <classpathPrefix>dependencies/</classpathPrefix>
+                            <classpathPrefix>dependency/</classpathPrefix>
                             <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Rsrc-Main-Class>com.javarush.games.racer.RacerGame</Rsrc-Main-Class>
-                            <Rsrc-Class-Path>./ dependencies/</Rsrc-Class-Path>
+                            <Class-Path>./</Class-Path>
                         </manifestEntries>
                     </archive>
                 </configuration>
